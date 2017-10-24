@@ -5,14 +5,27 @@
     <title>Bootstrap Panels</title>
     <!-- Bootstrap style -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
   <div id="container">
     <h1>Bootstrap Panels</h1>
     <p>Example panels: blank, info, warning, success, danger</p>
- 
+     <div class="well well-xs">
+      <p>Wells are like simplified panels</p>
+    </div>
+    <div class="well">
+      Search panel
+      <div class="input-group">
+           <input type="text" class="form-control" placeholder="Search term...">
+           <span class="input-group-btn">
+             <button class="btn btn-default" type="button">Search</button>
+           </span>
+         </div><!-- /input-group -->
+  </div>
+
   <div class="panel panel-success">
-    <div class="panel-heading">This is a panel header</div>
+    <div class="panel-heading panel-header">This is a panel header</div>
     <div class="panel-body">And this is panel body. Panels have variants like
       panel-warning, panel-info, panel-success, panel-danger,... this just
     a panel-success type panel</div>
