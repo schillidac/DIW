@@ -1,0 +1,13 @@
+#tabla-head{
+	background-color: #333;
+	color:white;
+}
+button.btn.btn-success.verde{
+	background-color:#E91E63; 
+}
+button.btn.btn-info.azul{
+	background-color:#8E24AA;
+}
+button.btn.btn-danger.rojo{
+	background-color:#C51162;
+}
