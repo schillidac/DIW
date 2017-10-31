@@ -5,3 +5,16 @@
 div.btn-toolbar.container{
 	margin:0 auto!important;
 }
+
+.navbar.navbar-default.red{
+	background-color: red;
+
+}
+.badge.red{
+	background-color: red;
+}
+
+.jumbotron.mio h1{
+
+	font-size:20em;
+}

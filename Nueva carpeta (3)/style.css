@@ -1,0 +1,14 @@
+.navbar-default{
+	background-color: white;
+	border:none;
+}
+.nav-item{
+	width: 100%;
+}
+.active.nav-item a.nav-link.color{
+	background-color: #3071a9;
+	color:white!important;
+}
+a.nav-link.color{
+	color:#3071a9!important;
+}
